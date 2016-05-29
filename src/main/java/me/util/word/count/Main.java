@@ -12,11 +12,21 @@ public class Main {
 
         String doc = args[0];
         if (doc.endsWith(".doc")) {
-            int[] arr = CountDoc.wordCountNew(doc, false);
-            System.out.print(arr[0]);
+            try {
+                int[] arr = CountDoc.wordCountNew(doc, false);
+                System.out.print(arr[0]);
+            } catch (Throwable e) {
+                int[] arr = CountDocx.wordCountNew(doc, false);
+                System.out.print(arr[0]);
+            }
         } else if (doc.endsWith(".docx")) {
-            int[] arr = CountDocx.wordCountNew(doc, false);
-            System.out.print(arr[0]);
+            try {
+                int[] arr = CountDocx.wordCountNew(doc, false);
+                System.out.print(arr[0]);
+            } catch (Throwable e) {
+                int[] arr = CountDoc.wordCountNew(doc, false);
+                System.out.print(arr[0]);
+            }
         } else {
             System.out.print("Please give the file name ends with '.doc' or '.docx'");
             return;
