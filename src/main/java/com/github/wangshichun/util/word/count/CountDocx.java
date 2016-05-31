@@ -1,4 +1,4 @@
-package me.util.word.count;
+package com.github.wangshichun.util.word.count;
 
 import org.apache.commons.lang3.StringUtils;
 import org.xml.sax.Attributes;

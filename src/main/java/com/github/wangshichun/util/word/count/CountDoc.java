@@ -1,4 +1,4 @@
-package me.util.word.count;
+package com.github.wangshichun.util.word.count;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.poi.hwpf.extractor.WordExtractor;

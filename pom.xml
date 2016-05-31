@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.util</groupId>
+    <groupId>com.github.wangshichun.util</groupId>
     <artifactId>word_count</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -53,7 +53,7 @@
                             <finalName>word_count</finalName>
                             <archive>
                                 <manifest>
-                                    <mainClass>me.util.word.count.Main</mainClass>
+                                    <mainClass>com.github.wangshichun.util.word.count.Main</mainClass>
                                 </manifest>
                             </archive>
                             <appendAssemblyId>false</appendAssemblyId>

@@ -1,4 +1,4 @@
-package me.util.word.count;
+package com.github.wangshichun.util.word.count;
 
 /**
  * Created by chunsw@aliyun.com on 16/5/23.
